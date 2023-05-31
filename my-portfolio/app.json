@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "my-portfolio",
     "name": "my-portfolio",
     "slug": "my-portfolio",
     "version": "1.0.0",
@@ -24,6 +25,7 @@
       }
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
     }
   }
