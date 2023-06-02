@@ -1,6 +1,5 @@
 {
   "expo": {
-    "scheme": "my-portfolio",
     "name": "my-portfolio",
     "slug": "my-portfolio",
     "version": "1.0.0",
@@ -10,19 +9,22 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "scheme": "my-portfolio"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dawnisarising.myportfolio"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dawnisarising.myportfolio"
     },
     "web": {
       "bundler": "metro",
